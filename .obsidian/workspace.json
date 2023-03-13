@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "811d45b05632faa9",
+        "id": "a044e26cd434ceda",
         "type": "tabs",
         "children": [
           {
-            "id": "2055261873d5b530",
+            "id": "5fc677a6b586c2fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.md",
+                "file": "splitChunks.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.md",
+                "file": "splitChunks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.md",
+                "file": "splitChunks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.md"
+                "file": "splitChunks.md"
               }
             }
           },
@@ -154,9 +154,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2055261873d5b530",
+  "active": "5fc677a6b586c2fb",
   "lastOpenFiles": [
+    "splitChunks.md",
     "README.md",
+    "未命名",
     "1.md"
   ]
 }

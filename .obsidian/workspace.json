@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f23d3feab40641de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-03-11.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-03-11.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-03-11.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -154,10 +167,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "510169290552db15",
+  "active": "f23d3feab40641de",
   "lastOpenFiles": [
-    "未命名.canvas",
     "2023-03-11.md",
+    "conflict-files-obsidian-git.md",
+    "splitChunks.md",
+    "未命名.canvas",
     "1.md",
     "README.md"
   ]

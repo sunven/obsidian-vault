@@ -1,1 +1,11 @@
-{}
+{
+  "strictLineBreaks": false,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "showFrontmatter": true,
+  "spellcheckLanguages": [
+    "zh-CN",
+    "en"
+  ],
+  "attachmentFolderPath": "./attachments"
+}

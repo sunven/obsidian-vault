@@ -7,5 +7,6 @@
     "zh-CN",
     "en"
   ],
-  "attachmentFolderPath": "./attachments"
+  "attachmentFolderPath": "./attachments",
+  "tabSize": 2
 }

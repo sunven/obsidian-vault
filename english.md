@@ -6,8 +6,24 @@ those
 thus 因此
 them
 their
+therefor
 since
 yet
 unless
 whenever
 while
+
+
+
+| word     | mean |
+| -------- | ---- |
+|          |      |
+|          |      |
+|          |      |
+| d        |      |
+| therefor | 因此 |
+|          |      |
+|          |      |
+| 
+
+|      |

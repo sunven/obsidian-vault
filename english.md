@@ -9,21 +9,20 @@ their
 therefor
 since
 yet
-unless
 whenever
 while
 
 
 
-| word     | mean |
-| -------- | ---- |
-|          |      |
-|          |      |
-|          |      |
-| d        |      |
-| therefor | 因此 |
-|          |      |
-|          |      |
-| 
+| word      | mean     |
+| --------- | -------- |
+| elsewhere | 在别处         |
+|           |          |
+| howerve   | 无论如何 |
+| unless    | 除非     |
+| therefor  | 因此     |
+|           |          |
+|           |          |
+|           |          |
 
 |      |

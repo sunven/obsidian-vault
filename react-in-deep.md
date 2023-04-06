@@ -32,6 +32,51 @@ react
 - render方法
 - 实现react-reconciler构造出来的fiber转换为dom的功能
 
+
+firber构造
+第1次performUnitOfWork
+beginWork 得到App的fiber
+
+第2次performUnitOfWork
+beginWork 得到main的fiber
+
+第3次performUnitOfWork
+beginWork 得到a的fiber,也创建了a的sibling FC
+
+第4次performUnitOfWork
+beginWork 得到null
+completeUnitOfWork
+	completeWork 创建a的dom 返回null
+	workInProgress = FC a的sibling 重新进performUnitOfWork
+
+第5次performUnitOfWork
+beginWork 得到div的fiber
+
+第6次performUnitOfWork
+beginWork 得到p的fiber,也创建了p的sibling span 重新进performUnitOfWork
+
+第7次performUnitOfWork
+beginWork 得到null
+completeUnitOfWork
+	completeWork 创建p的dom 返回null
+	workInProgress = span p的sibling
+
+第8次performUnitOfWork
+beginWork 得到null
+completeUnitOfWork
+	第1次completeWork 创建span的dom 返回null
+	workInProgress = div span的return
+	第2次completeWork 创建div的dom 返回null
+	workInProgress = FC div的return
+	第3次completeWork 创建 返回null
+	workInProgress = main FC的return
+	第4次completeWork 创建main的dom 返回null
+	workInProgress = App main的return
+	第5次completeWork 创建 返回null
+	workInProgress = FiberRoot App的return
+	第6次completeWork 创建 返回null
+	workInProgress = null FiberRoot的return
+
 - [ ] 预设
 	- [ ] 大流程
 	- [ ] 名词

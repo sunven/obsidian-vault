@@ -33,6 +33,10 @@ react
 - 实现react-reconciler构造出来的fiber转换为dom的功能
 
 
+beginWork：创建fiber
+completeUnitOfWork 创建dom
+	completeWork 如果有sibling，则重新进入一次performUnitOfWork，否则一直向上
+
 firber构造
 第1次performUnitOfWork
 beginWork 得到App的fiber
@@ -82,38 +86,42 @@ update
 
 标记自己lanes
 向上到hostrootfiber 标记childLanes
+`fiber(<App />)`lanes 1
+hostRootFiber childLanes 1
 
-1 performUnitOfWork
-beginWork 本身不需要更新，子节点需要更新，clone ，返回得到App的fiber bailout
-	clone 前current.child === workInProgress.child 为true
-	clone 后current.child === workInProgress.child 为false
-2 performUnitOfWork
-beginWork 得到了 Header 的fiber，和Header的sibling button,button的siblingdiv
-3 performUnitOfWork
-beginWork 返回null bailout
-completeUnitOfWork
-	completeWork workInProgress = button
-4 performUnitOfWork
-beginWork 返回null
-completeUnitOfWork
-	completeWork workInProgress = div
-5 performUnitOfWork
-beginWork 返回fiber(`<p>C</p>`)
-6 performUnitOfWork
-beginWork 返回null
-completeUnitOfWork
-		completeWork workInProgress = `fiber(<p>A</p>)`
-7 performUnitOfWork
-beginWork 返回null
-completeUnitOfWork
-		completeWork workInProgress = `fiber(<p>X</p>)`
-8 performUnitOfWork
-beginWork 返回null
-completeUnitOfWork
-	1 completeWork 创建  `dom(<p>X</p>)` workInProgress = `fiber(<div />)`
-	2 completeWork workInProgress = `fiber(<App />)`
-	3 completeWork workInProgress = `HostRootFiber`
-	4 completeWork workInProgress = null
+bailoutOnAlreadyFinishedWork用lanes判断
+
+1. 第1次 performUnitOfWork
+	1. beginWork 本身不需要更新，子节点需要更新，bailoutOnAlreadyFinishedWork > cloneChildFibers ，返回`fiber(<App />)`
+			clone 前 current.child === workInProgress.child 为true
+			clone 后 current.child === workInProgress.child 为false
+2. 第2次 performUnitOfWork
+	1. beginWork > updateClassComponent 返回`fiber(<Header />)` 也创建了Header的sibling
+3. 第3次 performUnitOfWork
+	1. beginWork > updateClassComponent > bailoutOnAlreadyFinishedWork(本身和子节点都无需更新)返回null
+	2. completeUnitOfWork
+			completeWork workInProgress = `fiber(<button />)`
+4. 第4次 performUnitOfWork
+	1. beginWork 返回null
+	2. completeUnitOfWork
+			completeWork workInProgress = `fiber(<div />)`
+5. 第5次 performUnitOfWork
+	1. beginWork 返回 `fiber(<p>C</p>)`
+6. 第6次 performUnitOfWork
+	1. beginWork 返回null
+	2. completeUnitOfWork
+			completeWork workInProgress = `fiber(<p>A</p>)`
+7. 第7次 performUnitOfWork
+	1. beginWork 返回null
+	2. completeUnitOfWork
+			completeWork workInProgress = `fiber(<p>X</p>)`
+8. 第8次 performUnitOfWork
+	1. beginWork 返回null
+	2. completeUnitOfWork
+		1. completeWork 创建  `dom(<p>X</p>)` workInProgress = `fiber(<div />)`
+		2. completeWork workInProgress = `fiber(<App />)`
+		3. completeWork workInProgress = `HostRootFiber`
+		4. completeWork workInProgress = null
 	
 - [ ] 预设
 	- [ ] 大流程

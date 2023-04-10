@@ -77,6 +77,44 @@ completeUnitOfWork
 	第6次completeWork 创建 返回null
 	workInProgress = null FiberRoot的return
 
+
+update
+
+标记自己lanes
+向上到hostrootfiber 标记childLanes
+
+1 performUnitOfWork
+beginWork 本身不需要更新，子节点需要更新，clone ，返回得到App的fiber bailout
+	clone 前current.child === workInProgress.child 为true
+	clone 后current.child === workInProgress.child 为false
+2 performUnitOfWork
+beginWork 得到了 Header 的fiber，和Header的sibling button,button的siblingdiv
+3 performUnitOfWork
+beginWork 返回null bailout
+completeUnitOfWork
+	completeWork workInProgress = button
+4 performUnitOfWork
+beginWork 返回null
+completeUnitOfWork
+	completeWork workInProgress = div
+5 performUnitOfWork
+beginWork 返回fiber(`<p>C</p>`)
+6 performUnitOfWork
+beginWork 返回null
+completeUnitOfWork
+		completeWork workInProgress = `fiber(<p>A</p>)`
+7 performUnitOfWork
+beginWork 返回null
+completeUnitOfWork
+		completeWork workInProgress = `fiber(<p>X</p>)`
+8 performUnitOfWork
+beginWork 返回null
+completeUnitOfWork
+	1 completeWork 创建  `dom(<p>X</p>)` workInProgress = `fiber(<div />)`
+	2 completeWork workInProgress = `fiber(<App />)`
+	3 completeWork workInProgress = `HostRootFiber`
+	4 completeWork workInProgress = null
+	
 - [ ] 预设
 	- [ ] 大流程
 	- [ ] 名词

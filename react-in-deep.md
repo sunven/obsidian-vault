@@ -37,49 +37,64 @@ beginWork：创建fiber
 completeUnitOfWork 创建dom
 	completeWork 如果有sibling，则重新进入一次performUnitOfWork，否则一直向上
 
-firber构造
-第1次performUnitOfWork
-beginWork 得到App的fiber
+## firber初次创建
 
-第2次performUnitOfWork
-beginWork 得到main的fiber
+```js
+<script type="text/babel">
+  const Component = React.Component;
+  const createRoot = ReactDOM.createRoot;
+  const root = createRoot(document.getElementById('container'));
+  const FC = ()=>{
+    return (
+      <div>
+        <p>p</p>
+        <span>span</span>
+      </div>
+    )
+  }
+  class App extends Component{
+    render() {
+      return (
+        <main>
+          <a>a</a>
+          <FC />
+        </main>
+      )
+    }
+  }
+  root.render(<App />);
+</script>
+```
 
-第3次performUnitOfWork
-beginWork 得到a的fiber,也创建了a的sibling FC
-
-第4次performUnitOfWork
-beginWork 得到null
-completeUnitOfWork
-	completeWork 创建a的dom 返回null
-	workInProgress = FC a的sibling 重新进performUnitOfWork
-
-第5次performUnitOfWork
-beginWork 得到div的fiber
-
-第6次performUnitOfWork
-beginWork 得到p的fiber,也创建了p的sibling span 重新进performUnitOfWork
-
-第7次performUnitOfWork
-beginWork 得到null
-completeUnitOfWork
-	completeWork 创建p的dom 返回null
-	workInProgress = span p的sibling
-
-第8次performUnitOfWork
-beginWork 得到null
-completeUnitOfWork
-	第1次completeWork 创建span的dom 返回null
-	workInProgress = div span的return
-	第2次completeWork 创建div的dom 返回null
-	workInProgress = FC div的return
-	第3次completeWork 创建 返回null
-	workInProgress = main FC的return
-	第4次completeWork 创建main的dom 返回null
-	workInProgress = App main的return
-	第5次completeWork 创建 返回null
-	workInProgress = FiberRoot App的return
-	第6次completeWork 创建 返回null
-	workInProgress = null FiberRoot的return
+1. 第1次performUnitOfWork
+	1. beginWork 得到App的fiber
+2. 第2次performUnitOfWork
+	1. beginWork 得到main的fiber
+3. 第3次performUnitOfWork
+	1. beginWork 得到a的fiber,也创建了a的sibling FC
+4. 第4次performUnitOfWork
+	1. beginWork 得到null
+	2. completeUnitOfWork
+		-  completeWork 创建a的dom 返回null
+		- workInProgress = FC a的sibling 重新进performUnitOfWork
+5. 第5次performUnitOfWork
+	1. beginWork 得到div的fiber
+6. 第6次performUnitOfWork
+	1. beginWork 得到p的fiber,也创建了p的sibling span 重新进performUnitOfWork
+7. 第7次performUnitOfWork
+	1. beginWork 得到null
+	2. completeUnitOfWork
+		- completeWork 创建p的dom 返回null
+		- workInProgress = span p的sibling
+8. 第8次performUnitOfWork
+	1. beginWork 得到null
+	2. completeUnitOfWork
+		- 第1次completeWork 创建span的dom 返回null，workInProgress = div span的return
+		- 第2次completeWork 创建div的dom 返回null，workInProgress = FC div的return
+		- 第3次completeWork 创建 返回null，workInProgress = main FC的return
+		- 第4次completeWork 创建main的dom 返回null，workInProgress = App main的return
+		- 第5次completeWork 创建 返回null，workInProgress = FiberRoot App的return
+		- 第6次completeWork 创建 返回null，workInProgress = null FiberRoot的return
 
 
 update
@@ -90,6 +105,49 @@ update
 hostRootFiber childLanes 1
 
 bailoutOnAlreadyFinishedWork用lanes判断
+
+## fiber 对比更新
+
+```js
+<script type="text/babel">
+   const root = ReactDOM.createRoot(document.getElementById('container'));
+   class Header extends React.PureComponent {
+     render() {
+       return (
+         <React.Fragment>
+           <h1>title</h1>
+           <h2>title2</h2>
+         </React.Fragment>
+       );
+     }
+   }
+   class App extends React.Component{
+     constructor(){
+       super();
+       this.state = {
+         list: ['A', 'B', 'C'],
+       }
+     }
+     add = ()=>{
+       this.setState({ list: ['C', 'A', 'X'] })
+     }
+     render() {
+       return (
+         <React.Fragment>
+           <Header />
+           <button onClick={this.add}> add </button>
+           <div className="content">
+             {this.state.list.map(item => (
+               <p key={item}>{item}</p>
+             ))}
+           </div>
+         </React.Fragment>
+       )
+     }
+   }
+   root.render(<App />);
+ </script>
+```
 
 1. 第1次 performUnitOfWork
 	1. beginWork 本身不需要更新，子节点需要更新，bailoutOnAlreadyFinishedWork > cloneChildFibers ，返回`fiber(<App />)`

@@ -9,6 +9,19 @@ createRoot > createFiberRoot
 
 任务的过期时间 与 执行时间5s 有啥关系  重复？
 
+
+因此，我们有3个优先系统
+
+1.  调度程序优先级 - 用于确定调度程序中任务的优先级
+2.  事件优先级 - 标记用户事件的优先级
+3.  车道优先级 - 标记工作优先级
+
+lane
+https://github.com/facebook/react/pull/18796
+https://jser.dev/react/2022/03/26/lanes-in-react
+lane 更新优先级
+- 为啥有更新优先级?
+
 react
 - 提供api控制react应用的工作
 

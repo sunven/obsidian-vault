@@ -25,4 +25,10 @@ while
 |           |          |
 |           |          |
 
-|      |
+
+expert
+experience
+expect
+exercise
+exclude
+exam

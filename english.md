@@ -26,9 +26,15 @@ while
 |           |          |
 
 
-expert
-experience
-expect
-exercise
-exclude
-exam
+| word       | d|
+| ---------- | ---|
+
+| word       | |
+| ---------- | --|
+| expert     | |
+| experience | |
+| expect     | |
+| exercise   | |
+| exclude    | |
+| exam       | |
+| excited    | |

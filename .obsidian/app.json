@@ -3,10 +3,7 @@
   "showLineNumber": true,
   "spellcheck": true,
   "showFrontmatter": true,
-  "spellcheckLanguages": [
-    "zh-CN",
-    "en"
-  ],
+  "spellcheckLanguages": null,
   "attachmentFolderPath": "./attachments",
   "tabSize": 2,
   "alwaysUpdateLinks": true

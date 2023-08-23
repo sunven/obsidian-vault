@@ -46,3 +46,12 @@
 | exam       |      |
 | excited    |      |
 | extract    |      |
+
+## though
+
+| word       | mean      |
+| ---------- | --------- |
+| though     | 虽然,尽管 |
+| thought    | 想法      |
+| through    | 通过      |
+| throughout | 遍及,始终 |

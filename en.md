@@ -40,8 +40,8 @@
 | ---------- | ---- |
 | expert     |      |
 | experience |      |
-| expect     |      |
-| exercise   |      |
+| expect     | 期望     |
+| exercise   |锻炼, 练习      |
 | exclude    |      |
 | exam       |      |
 | excited    |      |
@@ -49,9 +49,17 @@
 
 ## though
 
-| word       | mean      |
-| ---------- | --------- |
-| though     | 虽然,尽管 |
-| thought    | 想法      |
-| through    | 通过      |
-| throughout | 遍及,始终 |
+| word          | mean      |
+| ------------- | --------- |
+| though        | 虽然,尽管 |
+| thought/think | 想法      |
+| through       | 通过      |
+| throughout    | 遍及,始终 |
+
+| word    | mean |
+| ------- | ---- |
+| perfect |      |
+| prefer  |      |
+| perhaps        |      |
+
+

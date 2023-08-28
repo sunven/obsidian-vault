@@ -60,6 +60,7 @@
 | ------- | ---- |
 | perfect |      |
 | prefer  |      |
-| perhaps        |      |
+| perhaps |      |
+|    Proper     |   适当   |
 
 

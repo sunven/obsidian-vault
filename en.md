@@ -39,7 +39,7 @@
 | word       | mean |
 | ---------- | ---- |
 | expert     |      |
-| experience |      |
+| experience | 经验     |
 | expect     | 期望     |
 | exercise   |锻炼, 练习      |
 | exclude    |      |
@@ -56,11 +56,12 @@
 | through       | 通过      |
 | throughout    | 遍及,始终 |
 
-| word    | mean |
-| ------- | ---- |
-| perfect |      |
-| prefer  |      |
-| perhaps |      |
-|    Proper     |   适当   |
+| word    | mean   |
+| ------- | ------ |
+| perfect |        |
+| prefer  | 更喜欢 |
+| perhaps |        |
+| Proper  | 适当   |
+| prepare      |    准备    |
 
 

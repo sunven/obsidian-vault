@@ -36,16 +36,17 @@
   
 
 
-| word       | mean |
-| ---------- | ---- |
-| expert     |      |
-| experience | 经验     |
-| expect     | 期望     |
-| exercise   |锻炼, 练习      |
-| exclude    |      |
-| exam       |      |
-| excited    |      |
-| extract    |      |
+| word       | mean       |
+| ---------- | ---------- |
+| expert     |            |
+| experience | 经验       |
+| expect     | 期望       |
+| exercise   | 锻炼, 练习 |
+| exclude    |            |
+| exam       |            |
+| excited    |            |
+| extract    |            |
+| especially |     特别的       |
 
 ## though
 
@@ -65,3 +66,6 @@
 | prepare      |    准备    |
 
 
+
+- participate 参加
+- particular 特别

@@ -46,7 +46,8 @@
 | exam       |            |
 | excited    |            |
 | extract    |            |
-| especially |     特别的       |
+| especially | 特别的     |
+| extreme  |     极度       |
 
 ## though
 

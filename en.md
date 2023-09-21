@@ -70,3 +70,9 @@
 
 - participate 参加
 - particular 特别
+
+
+
+- either 每个 两者之一
+- neither  两者都不
+- rather 相反，反而，而是

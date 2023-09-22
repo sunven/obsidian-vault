@@ -47,7 +47,8 @@
 | excited    |            |
 | extract    |            |
 | especially | 特别的     |
-| extreme  |     极度       |
+| extreme    | 极度       |
+| excellent           |    极好的, 杰出的        |
 
 ## though
 

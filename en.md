@@ -80,3 +80,15 @@
 
 - particular 特别的
 - participate 参与
+
+## conv
+
+- convince：说服，使相信
+- conversation：对话，交谈
+- convert：转变，改变
+- convent：修道院
+- convenience：方便，便利
+- conventional：传统的，常规的
+- convey：传达，传递
+- conviction：信念，确信
+- convoy：护航，护送

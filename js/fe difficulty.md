@@ -4,3 +4,8 @@
 4. svg canvas
 5. bi
 6. 协同编辑
+
+
+## react 
+
+1. keep-alive

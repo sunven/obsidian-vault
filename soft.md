@@ -14,21 +14,19 @@
 |:----------------------------------------------------------------------------------------------:| -------- |
 | [Extension Manager](https://chromewebstore.google.com/detail/gjldcdngmdknpinoemndlidpcabkggco) | 插件管理 |
 
-装机
+装机流程
 
 - ShadowsocksX-NG
 
 - chrome
-
+- SwitchHosts 远程 githubhost
 - vscode
-
 - 微信输入法
-
 - obsidian
 
   
 
 - git -v 触发安装开发者工具
-
-- homebrew
-
+- homebrew 镜像
+- nvm  curl 装
+	- yarn

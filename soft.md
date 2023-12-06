@@ -13,3 +13,22 @@
 |                                              名称                                              | 说明     |
 |:----------------------------------------------------------------------------------------------:| -------- |
 | [Extension Manager](https://chromewebstore.google.com/detail/gjldcdngmdknpinoemndlidpcabkggco) | 插件管理 |
+
+装机
+
+- ShadowsocksX-NG
+
+- chrome
+
+- vscode
+
+- 微信输入法
+
+- obsidian
+
+  
+
+- git -v 触发安装开发者工具
+
+- homebrew
+

@@ -23,6 +23,8 @@
 - vscode
 - 微信输入法
 - obsidian
+- 企业微信
+- openvpn
 
   
 

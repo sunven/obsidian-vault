@@ -32,3 +32,7 @@
 - homebrew 镜像
 - nvm  curl 装
 	- yarn
+
+
+字体：NerdFontsSymbols Nerd Font
+SauceCodeProNerdFont-Regular.ttf

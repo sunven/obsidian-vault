@@ -27,6 +27,7 @@
 - openvpn
 - OpenInTerminal https://github.com/Ji4n1ng/OpenInTerminal
 - https://github.com/rxhanson/Rectangle
+- snipaste
   
 
 - git -v 触发安装开发者工具

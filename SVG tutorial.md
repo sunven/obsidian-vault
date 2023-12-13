@@ -1,5 +1,7 @@
 https://codepen.io/HunorMarton/full/PoGbgqj
 
+sunvenquan@google.com
+
 ## Christmas bauble
 viewBox: 坐标轴
 background-color: fill
@@ -23,3 +25,17 @@ ry
 circle: cx cy 圆心的 x y
 defs: 定义以后需要重复使用的图形元素
 polyline: points 定义点 x y 一对
+
+## Day 6: How to Draw Basic Paths with SVG
+
+### path
+
+d: move to, line to
+stroke-linecap: 指定路径两端线帽的样式
+1. butt:线段结束处以直边结束,标准正方形(默认值)。
+2. round:线段结束处以圆形结束。
+3. square:线段结束处以正方形结束,等同于线段宽度的矩形。
+stroke-linejoin: 两个线段连接处边角的样式
+1. miter:用延长的尖角连接,形成尖头(默认值)。
+2. round:用圆角连接。
+3. bevel:用斜面截断连接。

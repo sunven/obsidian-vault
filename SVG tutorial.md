@@ -39,3 +39,8 @@ stroke-linejoin: 两个线段连接处边角的样式
 1. miter:用延长的尖角连接,形成尖头(默认值)。
 2. round:用圆角连接。
 3. bevel:用斜面截断连接。
+
+##  Day 7: How to Draw a Star with SVG
+
+g: 组合对象的容器 group
+transform: 平移, 缩放, 旋转等

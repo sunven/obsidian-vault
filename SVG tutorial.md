@@ -45,3 +45,7 @@ stroke-linejoin: 两个线段连接处边角的样式
 
 g: 组合对象的容器 group
 transform: 平移, 缩放, 旋转等
+
+## Day 8: How to Draw a Snowflake with SVG
+
+defs, use:  定义和复用图形对象

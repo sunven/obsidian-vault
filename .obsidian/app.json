@@ -1,5 +1,5 @@
 {
-  "strictLineBreaks": false,
+  "strictLineBreaks": true,
   "showLineNumber": true,
   "spellcheck": true,
   "showFrontmatter": true,

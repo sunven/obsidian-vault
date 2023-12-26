@@ -1,10 +1,10 @@
 {
 	"nodes":[
-		{"id":"b7d4d4f2563f1242","x":-240,"y":0,"width":250,"height":60,"type":"text","text":"框架"},
-		{"id":"a4029222f125e5a1","x":-240,"y":120,"width":250,"height":60,"type":"text","text":"工具链"},
-		{"id":"1325305b89c0bcb2","x":-240,"y":240,"width":250,"height":60,"type":"text","text":"图形音视频"},
-		{"id":"d68df878147bba85","x":120,"y":180,"width":250,"height":60,"type":"text","text":"webpack/vite"},
-		{"id":"cc58beaac44c04d0","x":120,"y":60,"width":250,"height":60,"type":"text","text":"npm/yarn/pnpm"}
+		{"id":"b7d4d4f2563f1242","type":"text","text":"框架","x":-240,"y":0,"width":250,"height":60},
+		{"id":"a4029222f125e5a1","type":"text","text":"工具链","x":-240,"y":120,"width":250,"height":60},
+		{"id":"1325305b89c0bcb2","type":"text","text":"图形音视频","x":-240,"y":240,"width":250,"height":60},
+		{"id":"d68df878147bba85","type":"text","text":"webpack/vite","x":120,"y":180,"width":250,"height":60},
+		{"id":"cc58beaac44c04d0","type":"text","text":"npm/yarn/pnpm","x":120,"y":60,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"fe17ab184381cec3","fromNode":"a4029222f125e5a1","fromSide":"right","toNode":"cc58beaac44c04d0","toSide":"left"},

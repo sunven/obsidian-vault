@@ -1,4 +1,7 @@
 
+https://stackoverflow.com/questions/11922964/how-do-i-view-the-storage-of-a-chrome-extension-ive-installed
+https://developer.chrome.com/docs/extensions/reference/api/storage
+
 ```js
 function log(transaction, storeName) {
 

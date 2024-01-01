@@ -5,34 +5,23 @@
 ## 媒体工具
 ## 系统工具
 
-| 名称                                                             |   平台  |     | 说明           |
-| ---------------------------------------------------------------- | --- | --- | -------------- |
-| [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) |     |     | 任务栏显示网速 |
+| 名称 | 平台 | 说明 |
+| ---- | ---- | ---- |
+| [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) | windows | 任务栏显示网速 |
+| SwitchHosts | windows/mac | https://raw.hellogithub.com/hosts |
+| 微信输入法 | windows/mac |  |
+| obsidian | windows/mac |  |
+| openvpn | windows/mac |  |
+| [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal) | mac |  |
+| [Rectangle](https://github.com/rxhanson/Rectangle) | mac |  |
+| snipaste | windows/mac |  |
+| ShadowsocksX-NG |  |  |
 ## chrome extensions
 
-|                                              名称                                              | 说明     |
-|:----------------------------------------------------------------------------------------------:| -------- |
-| [Extension Manager](https://chromewebstore.google.com/detail/gjldcdngmdknpinoemndlidpcabkggco) | 插件管理 |
-
-装机流程
-
-- ShadowsocksX-NG
-
-- chrome
-- SwitchHosts 远程 githubhost
-- vscode
-- 微信输入法
-- obsidian
-- 企业微信
-- openvpn
-- OpenInTerminal https://github.com/Ji4n1ng/OpenInTerminal
-- https://github.com/rxhanson/Rectangle
-- snipaste
-  
-
+mac
 - git -v 触发安装开发者工具
 - homebrew 镜像
-- nvm  curl 装
+- nvm  用 curl 装
 	- yarn
 
 

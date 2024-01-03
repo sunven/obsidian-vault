@@ -8,14 +8,16 @@
 | 名称 | 平台 | 说明 |
 | ---- | ---- | ---- |
 | [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) | windows | 任务栏显示网速 |
-| SwitchHosts | windows/mac | https://raw.hellogithub.com/hosts |
-| 微信输入法 | windows/mac |  |
-| obsidian | windows/mac |  |
-| openvpn | windows/mac |  |
-| [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal) | mac |  |
-| [Rectangle](https://github.com/rxhanson/Rectangle) | mac |  |
-| snipaste | windows/mac |  |
+| SwitchHosts | windows/macos | https://raw.hellogithub.com/hosts |
+| 微信输入法 | windows/macos |  |
+| obsidian | windows/macos |  |
+| openvpn | windows/macos |  |
+| [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal) | macos |  |
+| [Rectangle](https://github.com/rxhanson/Rectangle) | macos |  |
+| snipaste | windows/macos |  |
 | ShadowsocksX-NG |  |  |
+| [clash-verge](https://github.com/zzzgydi/clash-verge) | windows/macos | Internet 选项 > 连接 > 局域网设置 > 代理服务器<br>chrome 右键翻译受此影响  |
+|  |  |  |
 ## chrome extensions
 
 mac

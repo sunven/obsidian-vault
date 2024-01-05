@@ -7,21 +7,22 @@
 - 低级的类汇编语言
 - 现代浏览器中附带了 WebAssembly 虚拟机
 
-## WAT
+**WAT**
 WebAssembly 的文本格式，浏览器Response展示的格式
 
-https://mbebenita.github.io/WasmExplorer/
+## 实践
 
-https://webassembly.org/getting-started/developers-guide/
+https://github.com/sunven/webAssembly-demo
+### 1. Compile a WebAssembly module from…
 
-https://github.com/WebAssembly/wabt
-## Compile a WebAssembly module from…
+使用 assemblyscript: https://www.assemblyscript.org/getting-started.html
 
+### 2. Use the compiled WebAssembly…
 
-WebAssembly.compile()
+**WebAssembly.compile()**
 编译 WebAssembly 二进制代码到一个WebAssembly.Module 对象
 
-WebAssembly.compileStreaming()
+**WebAssembly.compileStreaming()**
 从一个流式的底层源编译一个WebAssembly.Module
 
 ```js
@@ -38,6 +39,13 @@ const { exports } = await WebAssembly.instantiate(module, {})
   return exports
 ```
 
-## Use the compiled WebAssembly…
+### 3. Inspect WebAssembly…
 
-## Inspect WebAssembly…
+chrome devtool
+## use case
+
+- 图像，音/视频，游戏。。。
+	- h265 > 解封装 > 解码 > 音视频同步...
+- “混淆，加密”代码
+
+https://github.com/mcuking/Awesome-WebAssembly-Applications

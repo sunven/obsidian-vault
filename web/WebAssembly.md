@@ -48,4 +48,5 @@ chrome devtool
 	- h265 > 解封装 > 解码 > 音视频同步...
 - “混淆，加密”代码
 
+https://wasmbyexample.dev/home.en-us.html
 https://github.com/mcuking/Awesome-WebAssembly-Applications

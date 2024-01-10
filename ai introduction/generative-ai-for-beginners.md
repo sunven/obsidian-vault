@@ -1,3 +1,5 @@
+
+https://microsoft.github.io/generative-ai-for-beginners/#/
 ## 如何学习本课程
 
 - Jupyter
@@ -78,3 +80,19 @@ https://www.fiddler.ai/blog/four-ways-that-enterprises-deploy-llms
 	- 模型可能对 "展示和讲述 "的方法反应更好。首先，你可以采用`zero-shot`的方法，给模型一个指令（但不举例说明），然后尝试 `few-shot`的改进方法，提供一些所需的输出示例。使用类比。
 - 使用提示来启动完成
 	- 给它一些引导词或短语，让它以这些词或短语为出发点来做出回应，从而引导它取得预期结果
+
+## 五 创建高级 Prompt
+
+Prompting 技术
+
+- 零样本提示
+- 少样本提示
+- 思维链
+- 从少到多
+- 自我提炼，批判结果
+- Maieutic 提示
+
+- 指定上下文
+- 限制输出
+- 指定内容和方式
+- 使用模板

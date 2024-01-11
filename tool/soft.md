@@ -17,7 +17,7 @@
 | snipaste | windows/macos |  |
 | ShadowsocksX-NG |  |  |
 | [clash-verge](https://github.com/zzzgydi/clash-verge) | windows/macos | Internet 选项 > 连接 > 局域网设置 > 代理服务器<br>chrome 右键翻译受此影响  |
-|  |  |  |
+| [TCPView](https://learn.microsoft.com/en-us/sysinternals/downloads/tcpview) | windows | 查看端口 |
 ## chrome extensions
 
 mac

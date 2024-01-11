@@ -20,7 +20,15 @@ del env:windir
 
 查看占用端口：`netstat -ano | findstr 3306`
 查看 PID 对应的进程：`tasklist|findstr "12448"`
+查看被保留（不可用）的端口范围：`netsh interface ipv4 show excludedportrange protocol=tcp`
 
+## 找不到被占用的端口
+
+- hyper-v 占用
+	- wsl
+	- wsa 杀进程
+
+https://stackoverflow.com/questions/58216537/what-is-administered-port-exclusions-in-windows-10
 ## win11 右键菜单
 
 ```sh

@@ -1,4 +1,7 @@
 
+包管理工具：
+nvm fnm volta Conda
+
 | 操作 | npm 命令 | yarn 命令 | pnpm 命令 |
 | ---- | ---- | ---- | ---- |
 | <br>--help | npm -h<br>npm install -h<br>npm help install | yarn -h<br>yarn add -h | pnpm -h<br>pnpm add -h |

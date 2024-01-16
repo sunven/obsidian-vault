@@ -4,6 +4,8 @@ https://reactnative.dev/docs/environment-setup
 
 ### Gradle
 
+https://docs.gradle.org/current/userguide/compatibility.html
+
 构建工具，处理 Android 端的构建系统
 
 1. 编译打包：Gradle 能根据项目配置编译打包 Android 应用，生成 APK（Android 应用包）或 AAB（Android App Bundle）文件供发布。

@@ -3,6 +3,8 @@
 https://reactnative.dev/docs/environment-setup
 
 AGP Android Gradle Plugin
+
+NDK
 ### Gradle
 
 https://docs.gradle.org/current/userguide/compatibility.html

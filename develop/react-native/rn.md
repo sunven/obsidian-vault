@@ -2,6 +2,7 @@
 
 https://reactnative.dev/docs/environment-setup
 
+AGP Android Gradle Plugin
 ### Gradle
 
 https://docs.gradle.org/current/userguide/compatibility.html
@@ -38,3 +39,6 @@ Exception in thread "main" java.io.IOException: Downloading from https://service
 
 Unrecognized VM option 'MaxPermSize=1024m'
 jdk版本
+
+Major Versio
+https://mkyong.com/java/list-of-java-class-file-major-version-numbers/

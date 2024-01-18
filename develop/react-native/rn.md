@@ -33,6 +33,16 @@ systemProp.https.proxyPort=7890
 - 运行起来报错，可以尝试用android studio打开，会装一些依赖，环境。。。
 - 查看环境变量：`Get-ChildItem -Path Env:\`
 
+## Kotli
+
+- 是一个基于JVM 的新的编程语言，由 JetBrains 开发
+- 可以编译成Java字节码，也可以编译成JavaScript，方便在没有JVM的设备上运行
+- 已正式成为Android官方支持开发语言
+
+kotlin jvm compatibility
+
+https://kotlinlang.org/docs/faq.html#which-versions-of-jvm-does-kotlin-target
+
 ## 问题
 
 Exception in thread "main" java.io.IOException: Downloading from https://services.gradle.org/distributions/gradle-8.3-all.zip failed: timeout (10000ms)
@@ -44,3 +54,8 @@ jdk版本
 
 Major Versio
 https://mkyong.com/java/list-of-java-class-file-major-version-numbers/
+
+Build Output 乱码
+https://blog.51cto.com/u_16175484/7686226
+Android Studio的Help–>Edit Custom VM Options
+-Dfile.encoding=UTF-8

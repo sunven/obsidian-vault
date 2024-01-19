@@ -2,10 +2,31 @@
 
 https://reactnative.dev/docs/environment-setup
 
-AGP Android Gradle Plugin
+## AGP（Android Gradle Plugin）
 
-NDK
-### Gradle
+AGP 在 Android 开发中，通常指的是 Android Gradle 插件。这是一个用于 Android 项目的 Gradle 插件，它提供了一系列功能，使得 Android 开发者可以使用 Gradle 来自动化和管理他们的构建过程。
+Android Gradle 插件提供了许多功能，包括自动化项目构建、依赖管理、APK包的生成、多渠道打包、编译和测试等。同时，AGP 还支持自定义的构建类型和产品风味，允许开发者很方便地管理和控制他们的项目。
+在你的 Android 项目的 `build.gradle` 文件中，你通常会看到这样的代码：`apply plugin: 'com.android.application'`，这就是在应用 Android Gradle 插件。并且，在项目的根 `build.gradle` 文件中，通常会包含对 AGP 版本的定义，例如：`classpath 'com.android.tools.build:gradle:4.0.1'`。
+
+## NDK (Native Development Kit)
+它是一种工具集，使得 Android 开发者能够使用 C 和 C++ 对部分应用进行 native (即运行在底层的) 编程，这样可以提高应用的性能，特别是对计算密集型应用来说，使用 NDK 开发可以提高运行效率。
+
+```bash
+ndk {
+  abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86_64', 'x86' 
+}
+```
+```
+## ABI (Application Binary Interface)
+这是一种规定了二进制应用如何使用系统资源和调用系统服务的标准或者协议。每种 CPU 或架构类型都有对应的 ABI。在 Android NDK 开发中，ABI 决定了你的应用在哪种类型的设备上运行。比如 'armeabi' 表示你的应用可以在使用 ARM v7 架构的设备上运行，'x86' 则表示你的应用可以在使用 x86 架构的设备上运行
+
+## ADB（Android Debug Bridge）
+
+```text
+%ANDROID_HOME%\tools
+%ANDROID_HOME%\platform-tools
+```
+## Gradle
 
 https://docs.gradle.org/current/userguide/compatibility.html
 
@@ -56,6 +77,6 @@ Major Versio
 https://mkyong.com/java/list-of-java-class-file-major-version-numbers/
 
 Build Output 乱码
-https://blog.51cto.com/u_16175484/7686226
+
 Android Studio的Help–>Edit Custom VM Options
 -Dfile.encoding=UTF-8

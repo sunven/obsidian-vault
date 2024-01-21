@@ -35,8 +35,6 @@ del env:windir
 2. 系统环境变量
 3. 用户环境变量
 
-
-
 ## 找不到被占用的端口
 
 - hyper-v 占用
@@ -67,4 +65,12 @@ reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a
 
 # 重启
 taskkill /f /im explorer.exe & start explorer.exe
+```
+
+## 中文乱码
+
+$Profile中添加：
+
+```powershell
+$OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
 ```

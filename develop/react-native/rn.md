@@ -80,3 +80,8 @@ Build Output 乱码
 
 Android Studio的Help–>Edit Custom VM Options
 -Dfile.encoding=UTF-8
+
+## enable reload
+
+Ctrl + M
+**adb shell input keyevent 82**

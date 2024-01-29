@@ -81,6 +81,14 @@ Build Output 乱码
 Android Studio的Help–>Edit Custom VM Options
 -Dfile.encoding=UTF-8
 
+
+自动链接不生效
+
+https://github.com/react-native-community/cli/blob/main/docs/autolinking.md#example-1
+https://github.com/facebook/react-native/issues/25787
+
+yarn react-native run-android 自动生成PackageList
+
 ## enable reload
 
 Ctrl + M

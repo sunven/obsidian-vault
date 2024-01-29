@@ -9,7 +9,8 @@ Web 引擎大致由 JavaScript 引擎、渲染引擎、HTML 解析器、网络�
 	- Firefox
 	- c++, rust
 	- https://spidermonkey.dev/
-	
+- [hermes](https://github.com/facebook/hermes)
+	- A JavaScript engine optimized for running React Native
 
 ## JavaScript runtime
 

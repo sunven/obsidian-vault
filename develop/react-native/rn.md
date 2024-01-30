@@ -1,3 +1,4 @@
+# rn
 ## 环境
 
 https://reactnative.dev/docs/environment-setup
@@ -80,7 +81,6 @@ Build Output 乱码
 
 Android Studio的Help–>Edit Custom VM Options
 -Dfile.encoding=UTF-8
-
 
 自动链接不生效
 

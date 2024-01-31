@@ -1,3 +1,4 @@
+# intro
 
 ## Install
 
@@ -6,6 +7,15 @@ https://docs.flutter.dev/get-started/install
 mirror: https://flutter.cn/community/china
 
 - `D:\flutter`
+
+## env
+
+```ps1
+[System.Environment]::SetEnvironmentVariable('PUB_HOSTED_URL', 'https://pub.flutter-io.cn', [System.EnvironmentVariableTarget]::User)
+[System.Environment]::SetEnvironmentVariable('FLUTTER_STORAGE_BASE_URL', 'https://storage.flutter-io.cn', [System.EnvironmentVariableTarget]::User)
+```
+
+const String kMaven = 'https://maven.aliyun.com/repository/public/';
 ## Troubleshooting
 
 代理：

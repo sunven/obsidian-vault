@@ -2,5 +2,6 @@
   "accentColor": "",
   "cssTheme": "Things",
   "theme": "obsidian",
-  "monospaceFontFamily": "Source Code Pro"
+  "monospaceFontFamily": "Source Code Pro",
+  "nativeMenus": false
 }

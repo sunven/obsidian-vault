@@ -1,3 +1,4 @@
+# soft
 
 ## 办公软件
 ## 上传下载
@@ -19,6 +20,7 @@
 | [clash-verge](https://github.com/zzzgydi/clash-verge) | #windows#macos | Internet 选项 > 连接 > 局域网设置 > 代理服务器<br>chrome 右键翻译受此影响 |
 | [TCPView](https://learn.microsoft.com/en-us/sysinternals/downloads/tcpview) | #windows | 查看端口 |
 | [Shell](https://github.com/moudey/Shell) | #windows | Powerful manager for Windows File Explorer context menu |
+| [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) | #windows  |  |
 ## chrome extensions
 
 mac
@@ -26,7 +28,6 @@ mac
 - homebrew 镜像
 - nvm  用 curl 装
 	- yarn
-
 
 字体：NerdFontsSymbols Nerd Font
 SauceCodeProNerdFont-Regular.ttf

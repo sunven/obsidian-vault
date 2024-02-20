@@ -28,3 +28,25 @@ https://mirrors.cloud.tencent.com/gradle/
 **Exception in thread "main" java.util.zip.ZipException: zip END header not found**
 删除 ~ 目录下 .gradle 文件夹
 https://github.com/flutter/flutter/issues/73852
+
+## FVM
+
+https://fvm.app/
+
+```ps
+choco install fvm
+
+# 全局执行，相当于缓存
+fvm install 2.5.0
+# 项目根目录执行。创建.fvm文件夹
+fvm use 2.2.3
+# 全局flutter版本
+fvm global 2.5.0
+```
+
+flutter xxx 使用 fvm flutter xxx 代替
+
+### vs code
+
+在 vscode 控制面板中执行 Flutter: Change SDK 切换 Flutter SDK 版本，
+将同步记录到当前项目的 vscode 配置文件 .vscode/settings.json 中（dart.flutterSdkPath）

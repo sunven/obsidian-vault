@@ -25,6 +25,12 @@ distributionUrl=https\://mirrors.cloud.tencent.com/gradle/gradle-7.5-all.zip
 ```
 https://mirrors.cloud.tencent.com/gradle/
 
+```
+maven { url 'https://maven.aliyun.com/repository/google' }
+maven { url 'https://maven.aliyun.com/repository/jcenter' }
+maven { url 'https://maven.aliyun.com/nexus/content/groups/public' }
+```
+
 **Exception in thread "main" java.util.zip.ZipException: zip END header not found**
 删除 ~ 目录下 .gradle 文件夹
 https://github.com/flutter/flutter/issues/73852

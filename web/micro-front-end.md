@@ -30,3 +30,20 @@ https://www.yuque.com/kuitos/gky7yw/gesexv
 
 
 ModuleFederationPlugin
+
+
+框架
+- https://github.com/web-infra-dev/garfish
+
+
+web 框架
+
+- umi
+- https://github.com/web-infra-dev/modern.js
+- nextjs
+
+工具链
+
+- webpack
+- rspack
+- vite

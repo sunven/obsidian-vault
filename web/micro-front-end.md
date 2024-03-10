@@ -1,3 +1,4 @@
+# micro-front-end
 ## what
 https://micro-frontends.org/
 
@@ -15,8 +16,6 @@ https://micro-frontends.org/
 - 数据通信
 - 静态资源补全
 
-
-
 ## Why Not Iframe
 
 https://www.yuque.com/kuitos/gky7yw/gesexv
@@ -25,16 +24,15 @@ https://www.yuque.com/kuitos/gky7yw/gesexv
 
 - url change
 - WebComponent
-
-
-
+- 构建时集成
+- 运行时集成
+- iframe
+- 服务端集成
 
 ModuleFederationPlugin
 
-
 框架
 - https://github.com/web-infra-dev/garfish
-
 
 web 框架
 
@@ -47,3 +45,13 @@ web 框架
 - webpack
 - rspack
 - vite
+- parcel
+- roolup
+
+https://lerna.js.org/
+
+代码共享
+- copy
+- npm/cdn
+- Monorepo
+- micro fe

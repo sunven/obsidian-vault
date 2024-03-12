@@ -1,3 +1,4 @@
+# javascript transpiler
 
 源到源的编译器
 
@@ -5,11 +6,11 @@
 
 ts > js
 
-
 ```text
 Code --(parse)--> AST --(transform)--> AST --(generate)--> Code
 ```
 
+oxc
 
 Babel
 - js
@@ -21,7 +22,6 @@ esbuild
 swc
 - rust
 - minifier  bundler
-
 
 minifier
 用于压缩代码的工具。通常，它们会删除代码中的所有不必要的字符（如空格、换行、注释等），并尽可能地缩短变量名和函数名，以降低文件大小，从而提高页面加载速度。另外，某些压缩工具还提供了例如删除未使用的代码、优化代码逻辑等高级功能。

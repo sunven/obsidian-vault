@@ -1,3 +1,4 @@
+# en
 ## 词性
 
 1. 名词 (n.) Nouns，表示人或事物的名称。 如： box, pen, tree, apple。
@@ -10,7 +11,6 @@
 8. 介词 (prep.) Prepositions，用在名词或代词前,说明它与别的词的关系。 如： in, on, down, up。
 9. 连词 (conj.) Conjunctions，表示人或事物的名称 。 如：if, because, but。
 10. 感叹词 (int.) Interjections，代替名词、数词、形容词等。 如：oh, hello, hi, yeah。
-
 
 | word      | mean      |
 |:--------- |:--------- |
@@ -31,10 +31,6 @@
 | howerve   | 无论如何  |
 | unless    | 除非      |
 | therefor  | 因此      |
-
-
-  
-
 
 | word       | mean       |
 | ---------- | ---------- |
@@ -67,12 +63,8 @@
 | Proper  | 适当   |
 | prepare      |    准备    |
 
-
-
 - participate 参加
 - particular 特别
-
-
 
 - either 每个 两者之一
 - neither  两者都不
@@ -92,3 +84,17 @@
 - convey：传达，传递
 - conviction：信念，确信
 - convoy：护航，护送
+
+adj
+- ul
+- ous
+
+adv
+- ly
+
+g k h
+d t s
+u v w
+m n l r
+b p m f v
+a e i o u

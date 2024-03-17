@@ -15,6 +15,7 @@ message ,notify
 **google**
 - mongodb
 - 沉浸式翻译
+- clerk
 
 **github**
 - vercel

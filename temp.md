@@ -19,3 +19,6 @@ message ,notify
 
 **github**
 - vercel
+
+qq email
+- https://discord.com/

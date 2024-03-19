@@ -14,3 +14,9 @@
 - 例子
 - umd/cmd > esm
 - lodash
+
+pnpm
+
+- 软连接
+- 硬连接
+- 

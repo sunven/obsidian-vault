@@ -3,5 +3,6 @@
   "cssTheme": "Things",
   "theme": "obsidian",
   "monospaceFontFamily": "Source Code Pro",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "interfaceFontFamily": ""
 }

@@ -1,5 +1,4 @@
-# 未命名
-How to Starat Your Own Business
+# How to Starat Your Own Business
 
 The paradox of starting your own business lies in the simultaneous challenge and reward, making it an experience unlike any other. So many businesses fail, and most entrepreneurs exclude themselves from the possibility. The tragic reality is that when businesses fail, the passion often dies with it. By following some sound advice and being prepared for the process, you will decrease your chances of losing a lot more than you bargained for. I have recently started a business and have learned some crucial lessons in the process that I feel privileged to share with you.
 

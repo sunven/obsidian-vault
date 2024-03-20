@@ -4,5 +4,6 @@
   "theme": "obsidian",
   "monospaceFontFamily": "Source Code Pro",
   "nativeMenus": false,
-  "interfaceFontFamily": ""
+  "interfaceFontFamily": "",
+  "showViewHeader": true
 }

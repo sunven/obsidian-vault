@@ -6,5 +6,6 @@
   "spellcheckLanguages": null,
   "attachmentFolderPath": "./attachments",
   "tabSize": 2,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": false
 }

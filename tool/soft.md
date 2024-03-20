@@ -22,6 +22,7 @@
 | [Shell](https://github.com/moudey/Shell)                                    | #windows       | Powerful manager for Windows File Explorer context menu |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager)  | #windows       | 右键菜单管理                                                  |
 | [WizTree](https://diskanalyzer.com/)                                        | #windows       | 磁盘工具分析工具                                                |
+| [SoftCnKiller](https://github.com/cuteinfo/SoftCnKiller)                    | #windows       | 流氓软件黑名单                                                 |
 ## chrome extensions
 
 mac

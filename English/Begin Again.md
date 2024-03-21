@@ -30,7 +30,7 @@ Now, as an inspiration writer, being thought of as a resource of hope or a good(
 
 So, what do I say ?
 
-"What can I do, Bod? I've lost my jo. What do you suggest ?"
+"What can I do, Bod? I've lost my job. What do you suggest ?"
 
 "Begin again."
 

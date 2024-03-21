@@ -1,4 +1,4 @@
-# # The Importance of Money in Life
+# The Importance of Money in Life
 
 What were you taught about money as you were growing up ? Something like"money doesn't grow on trees", or "money is the root of all evil", or maybe "all rich people are greedy"?
 

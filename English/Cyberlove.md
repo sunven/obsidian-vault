@@ -1,0 +1,20 @@
+# Cyberlove
+
+Thanks to the late 20th century technology, Maria of Denmark and Martijin of Holland met on a chatline. For months they've talked and sent letters to each other with the help of their computers as they found themselves falling head over heels in love. It was then that they decided to meet in the real, not only the virtual, world. It was not easy to arrange as the young man and his lady were separated by 700 very real kilometers, but the date was a success and Maria and Martijin have been living together happily ever since. They've created a home page to let the world know how they've found happiness via the Internet and introduce couples who've met under similar circumstances.
+
+Throughout history men and women have used a variety of means to find each other. Internet romance, according to some, is a bizarre method, and to others it is a natural way for the 90's to meet potential mates.
+
+Romances formed on the Internet follow a characteristic script. The development of emotional intimacy is a long process, sometimes taking several months. "Love at first byte" is rate although there are examples. The initial light exchanges, whether by e-mail or in chat rooms, are generally followed by increasingly self-revealing topics, and then after a while, the two strangers perceive each other as a true friend. Hearts open, and avalanche of e-mail crosses cyberspace carring literary quality, and electronic messages are even enhanced with verses and virtual gifts(flowers, kisses, animated pictures). Could any heart with romantic inclinations resist ? When you reach for the mouse with sweaty palms and butterflies in the stomach to look in-box for new mail----there's just no way to escape the fact----love has arrived.
+
+How does a cyber romance vary from a really life romance ? Perhaps one significant difference is that communication plays such a large part. Words that convey feeling have enormous effect. While before a real date we fix our hair and our clothes, on the Internet we polish our intellect, imagination and personality. In essence, the sequence is reversed----first we show our inner beauty and only after it has won victory does the veil fall off the physical vehicle of that personality at the time of that first meeting in person.
+
+It is popular topic in cyberspace to debate whether or not true love can develop merely on an intellectual level, without physical attraction or the familiarity of the other's appearance. To put it another way : Does the physical appearance of the man or woman play a part in the relationship if, through the exchange of thoughts and feelings, they already fell in love ?
+
+Many say it is against the nature of love to be deprived of the sense of sight, the look, the movement, and the body language being present. There are those, of  course, who favor Internet relationships claiming that the intensity of the emotional relationship that develops in such a way is superior to the mere stirring of the flesh.
+
+Whatever the opinion may be on cyberlove, it must be said in favor of the Internet that it puts people in touch with those who they otherwise would never have met. I would never have suspected that the first person I met by e-mail would be a German chimney sweeper, with whom, after a year of correspondence, albeit not romantic, a common interest still exists.
+
+It is silly to perceive the Net as a demon, when we determine how we meet  its challenges. While there are those who can use the Net to their advantage extracting useful information, there are those who become addicts losing common sense, hopping from chat room to chat room, writing piles of e-mails full of lies to chosen victims, and whose virtual reality, the flirtations, become part of their everyday lives, as if a disease. One thing is true----the Net is very addictive. According to the confession of a multiple substance addict, it was easier to give up cocaine than the IRC.
+
+In any case, keep your eyes open off-line as well. Turn off the machine and go to a dance or a club, because most women still expect to be courted in a real, old-fashioned, and romantic way.
+

@@ -10,7 +10,6 @@
 | --------------------------------------------------------------------------- | -------------- | ------------------------------------------------------- |
 | [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)            | #windows       | 任务栏显示网速                                                 |
 | SwitchHosts                                                                 | #windows#macos | https://raw.hellogithub.com/hosts                       |
-| 微信输入法                                                                       | #windows#macos |                                                         |
 | obsidian                                                                    | #windows#macos |                                                         |
 | openvpn                                                                     | #windows#macos |                                                         |
 | [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal)                 | #macos         |                                                         |
@@ -21,7 +20,7 @@
 | [TCPView](https://learn.microsoft.com/en-us/sysinternals/downloads/tcpview) | #windows       | 查看端口                                                    |
 | [Shell](https://github.com/moudey/Shell)                                    | #windows       | Powerful manager for Windows File Explorer context menu |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager)  | #windows       | 右键菜单管理                                                  |
-| [WizTree](https://diskanalyzer.com/)                                        | #windows       | 磁盘工具分析工具                                                |
+| [WizTree](https://diskanalyzer.com/)                                        | #windows       | 磁盘分析工具                                                  |
 | [SoftCnKiller](https://github.com/cuteinfo/SoftCnKiller)                    | #windows       | 流氓软件黑名单                                                 |
 ## chrome extensions
 

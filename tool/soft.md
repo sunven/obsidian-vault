@@ -22,6 +22,7 @@
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager)  | #windows       | 右键菜单管理                                                  |
 | [WizTree](https://diskanalyzer.com/)                                        | #windows       | 磁盘分析工具                                                  |
 | [SoftCnKiller](https://github.com/cuteinfo/SoftCnKiller)                    | #windows       | 流氓软件黑名单                                                 |
+| [WingetUI](https://github.com/marticliment/WingetUI)                        | #windows       | 包管理工具                                                   |
 ## chrome extensions
 
 mac

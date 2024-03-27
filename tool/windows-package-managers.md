@@ -70,4 +70,7 @@ scoop install extras/wingetui
 https://mirrors.ustc.edu.cn/winget-source
 ```
 
-**choc 使用系统的**
+**choco**
+
+- choco 使用系统的
+- 始终以管理员权限执行choco

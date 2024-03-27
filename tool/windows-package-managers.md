@@ -58,8 +58,16 @@ choco config set proxy http://127.0.0.1:7890
 
 ## wingetui
 
+### install
+
 ```sh
 scoop install extras/wingetui
+```
+
+**winget源**
+
+```
+https://mirrors.ustc.edu.cn/winget-source
 ```
 
 **choc 使用系统的**
